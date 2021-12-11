@@ -1,0 +1,4 @@
+/etc/apt/preferences.d
+/etc/apt/sources.list.d
+/usr/share/droidian-upgrade-bookworm/sources.list.d
+/usr/share/droidian-upgrade-bookworm/preferences.d

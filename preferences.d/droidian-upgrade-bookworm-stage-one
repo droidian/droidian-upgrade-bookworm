@@ -1,0 +1,9 @@
+# Ensure no packages from bookworm can be installed
+Package: *
+Pin: release n=bookworm
+Pin-Priority: -1
+
+# Allow droidian-apt-config and droidian-upgrade-bookworm itself
+Package: droidian-apt-config droidian-upgrade-bookworm
+Pin: release n=bookworm
+Pin-Priority: 2000
