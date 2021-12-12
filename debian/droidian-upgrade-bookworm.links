@@ -1,2 +1,2 @@
-/usr/share/droidian-upgrade-bookworm/preferences.d/droidian-upgrade-bookworm-stage-one /etc/apt/preferences.d/droidian-upgrade-bookworm-stage-one
+/usr/share/droidian-upgrade-bookworm/preferences.d/zz-droidian-upgrade-bookworm-stage-one /etc/apt/preferences.d/zz-droidian-upgrade-bookworm-stage-one
 /usr/share/droidian-upgrade-bookworm/sources.list.d/droidian-upgrade-bookworm-stage-one.list /etc/apt/sources.list.d/droidian-upgrade-bookworm.list
