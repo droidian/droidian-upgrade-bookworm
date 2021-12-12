@@ -1,0 +1,4 @@
+# Enforce packages from bookworm
+Package: *
+Pin: release n=bookworm
+Pin-Priority: 2000

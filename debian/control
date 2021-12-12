@@ -11,9 +11,9 @@ Package: droidian-upgrade-bookworm
 Architecture: all
 Pre-Depends: apt
 Depends: ${misc:Depends}, droidian-apt-config
-Description: Droidian bookworm upgrade - stage one
+Description: Droidian bookworm upgrade - stage two
  Install this package if you wish to upgrade to the next
  Droidian release, aka bookworm.
  .
- This is the first stage, that will ensure that all things
- are in-place for the upgrade.
+ This is the second stage, that will ensure that all packages
+ are going to be installed from the new repositories.
