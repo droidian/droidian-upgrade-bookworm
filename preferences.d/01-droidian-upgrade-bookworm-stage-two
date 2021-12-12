@@ -1,9 +1,13 @@
 # Enforce packages from bookworm
 Package: *
+Pin: release n=bookworm,o=Droidian
+Pin-Priority: 2001
+
+Package: *
 Pin: release n=bookworm
 Pin-Priority: 2000
 
-# Forbid lxc upgrades
-Package: lxc
+# Forbid lxc and system image upgrades
+Package: lxc android-system-gsi-*
 Pin: release n=bookworm
 Pin-Priority: -10
