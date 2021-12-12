@@ -2,3 +2,8 @@
 Package: *
 Pin: release n=bookworm
 Pin-Priority: 2000
+
+# Forbid lxc upgrades
+Package: lxc
+Pin: release n=bookworm
+Pin-Priority: -10
